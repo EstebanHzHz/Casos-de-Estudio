@@ -1,0 +1,32 @@
+/** {
+    border: 1px solid black;
+}
+*/
+body {
+    margin: 0;
+    display: grid;
+    grid-template: 1fr / 30% 70%;
+    background-image: url(https://images7.alphacoders.com/510/510603.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+.seccion {
+    background-color: aliceblue;
+    grid-column: 2;
+}
+
+fieldset {
+    display: block;
+    margin: 25px auto;
+    width: 60vw;
+    height: 80vh;
+}
+
+fieldset * {
+    border: 1px solid black;
+}
+
+tfoot {
+    text-align: center;
+}
