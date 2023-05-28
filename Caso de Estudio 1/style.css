@@ -1,0 +1,60 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(75deg, green, purple);
+}
+
+header {
+    margin: 1rem auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+caption {
+    font-size: 26pt;
+    padding: 5px;
+}
+
+table {
+    background-color: azure;
+    margin: 20px auto;
+    width: 700px;
+    padding: 20px;
+    height: 550px;
+    box-shadow: 1px 1px 3px 3px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+th, td {
+    padding: 5px;
+}
+
+tfoot {
+    text-align: center;
+}
+
+label {    
+    font-size: 12pt;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    transition: 0.3s;
+}
+
+input[type="text"]:hover, input[type="tel"]:hover, input[type="email"]:hover {
+    border-bottom: 3px solid red;
+}
+
+#itxtFav {
+    width: 60%;
+}
